@@ -24,11 +24,11 @@ while True:
         break
 
     if soma % 2 != 0 and tipo == 'I':
-        print(f'Você jogou {num_usr} e o computador {num_bot}. Total de {soma} é PAR')
+        print(f'Você jogou {num_usr} e o computador {num_bot}. Total de {soma} é IMPAR')
         wins += 1
         print('VOCÊ VENCEU!')
     if soma % 2 == 0 and tipo == 'I':
-        print(f'Você jogou {num_usr} e o computador {num_bot}. Total de {soma} é IMPAR')
+        print(f'Você jogou {num_usr} e o computador {num_bot}. Total de {soma} é PAR')
         print('VOCÊ PERDEU!')
         break
 
